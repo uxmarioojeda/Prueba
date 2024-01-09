@@ -1,0 +1,84 @@
+#carouselExample {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.carousel-inner {
+    max-width: 80%; /* Ajusta el ancho máximo del carrusel según tus necesidades */
+    margin: 0 auto; /* Centra el carrusel horizontalmente */
+}
+
+.carousel-item p {
+    color: #5BC7D7;
+    font-size: 16px;
+}
+
+.carousel-item h1{
+    color: #373535;
+    font-size: 72px;
+}
+
+.carousel-inner img {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto original de la imagen */
+}
+
+.carousel-item img {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto original de la imagen */
+}
+
+.carousel-item h2{
+    color: aliceblue;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    text-align: start;
+    color: #353736;
+    font-size: 16px !important;
+}
+
+.cont_galery_a img{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    text-align: start;
+    width: 10%;
+}
+
+#myCarousel .carousel-indicators {
+    position: static;
+    margin-top: 0px
+}
+
+#myCarousel .carousel-indicators>li {
+    width: 100px
+}
+
+#myCarousel .carousel-indicators li img {
+    display: block;
+    opacity: 0.5
+}
+
+#myCarousel .carousel-indicators li.active img {
+    opacity: 1
+}
+
+#myCarousel .carousel-indicators li:hover img {
+    opacity: 0.75
+}
+
+.cont_galery{
+    background-color: #eeeeee00;
+}
+
+.cont_galery_c{
+    margin-top: 10%;
+}
+
+.cont_galery_a{
+    height: 100%;
+}
