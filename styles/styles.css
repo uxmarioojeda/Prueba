@@ -8,6 +8,29 @@
     background-color: #292828;
 }
 
+
+.carousel-item
+{
+    background-color: #fff;
+}
+.carousel-item p
+{background-color: #fff;
+color: #5BC7D7;
+font-size: 16px;
+}
+
+.carousel-item h1{
+    color: #292828;
+    font-size: 72px;
+}
+
+.carousel-item h2{
+    color: #292828;
+    font-size: 16px;
+    display: flex;
+}
+
+
 p {
     font-family: 'Quantico', sans-serif;
     font-size: 1.1em;
