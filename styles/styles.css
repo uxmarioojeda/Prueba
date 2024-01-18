@@ -28,6 +28,32 @@ p {
    align-items: start;
    color: #ffffff;
 }
+.project-hover {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.project-hover:hover {
+    transform: scale(1.1);
+}
+
+.project-hover .cont_text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente negro */
+    padding: 15px;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.project-hover:hover .cont_text {
+    opacity: 1;
+}
+
 .cont_bg_image {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%), url(../images/banner_home_5.png);
     background-repeat: no-repeat;
